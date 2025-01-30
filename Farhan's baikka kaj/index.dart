@@ -1,8 +1,8 @@
 import 'dart:io';
 
 class Task {
-  String title;
-  bool isCompleted;
+  String? title;
+  bool? isCompleted;
 
   Task(this.title, {this.isCompleted = false});
 
