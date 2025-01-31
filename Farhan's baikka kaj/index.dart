@@ -21,7 +21,7 @@ class ToDoList {
 
   void addTask(String title) {
     tasks.add(Task(title));
-    print("Task added: \"$title\"");
+    print("Task added:\"$title\"");
   }
 
   void removeTask(int index) {
@@ -68,7 +68,7 @@ void main() {
 
     switch (choice) {
       case '1':
-        stdout.write("Enter task title: ");
+        stdout.write("Enter task title:");
         String? title = stdin.readLineSync();
         if (title != null && title.isNotEmpty) {
           toDoList.addTask(title);
